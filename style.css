@@ -1,0 +1,81 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./hypercube.jpg);
+}
+
+h1 {
+    border-style: solid;
+    border-color: black;
+    background-color: rgba(0, 21, 41, 0.856);
+    padding: 10px;
+}
+
+button {
+    flex: 1;
+    font-size: 30px;
+    background-color: rgb(33, 47, 61);
+    color: rgb(114, 114, 114);
+    border-style: solid;
+    border-color: rgb(30, 30, 31);
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 300px;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+    border-style: double;
+    border-color: black;
+    background-color: rgba(0, 21, 41, 0.856);
+    border-width: 3px;
+    flex: auto;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.operation {
+    margin: 0px;
+    font-style: italic;
+}
+
+.result {
+    margin: 0px;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.digits-keyboard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.operations-keyboard {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
